@@ -53,7 +53,7 @@ def main():
         if word in posLexicon2:
             posMatches = posMatches + [word] #add matched word to list
             posMatchCount += 1 #increment match counter
-    print (posMatchCount)
+    #print (posMatchCount)
 
     #check for matches in negative lexicon
     negMatches = []
@@ -63,7 +63,7 @@ def main():
         if word in negLexicon2:
             negMatches = negMatches + [word] #add matched word to list
             negMatchCount += 1 #increment match counter
-    print (negMatchCount)
+    #print (negMatchCount)
 
     #comparison of pos words and neg words
     if (posMatchCount > negMatchCount):
